@@ -1,4 +1,5 @@
 # Task Reminder CLI
+Автор: qqxaGo
 
 Простое, но качественное консольное приложение на Go для управления напоминаниями о задачах.
 
@@ -36,7 +37,6 @@ go run ./cmd/taskreminder complete --id 1234567890123456789
 go run ./cmd/taskreminder run
 
 ## Структура проекта
-
 task-reminder/
 ├── cmd/taskreminder/     ← точка входа, CLI-логика
 ├── internal/
