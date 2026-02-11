@@ -15,22 +15,10 @@
 - Table-driven тесты на парсинг времени
 - Цветной табличный вывод в терминале
 
-## Структура проекта 
-
-task-reminder/
-├── cmd/taskreminder/     ← точка входа, CLI-логика
-├── internal/
-│   ├── model/            ← структуры (Task)
-│   ├── storage/          ← сохранение/загрузка JSON
-│   ├── reminder/         ← concurrency, таймеры, graceful shutdown
-│   └── util/             ← вспомогательные функции + тесты (парсинг времени)
-├── go.mod
-└── README.md
-
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/qqxaGO/task-reminder.git
+git clone https://github.com/qqxaGo/task-reminder.git
 cd task-reminder
 go mod tidy
 
@@ -47,7 +35,7 @@ go run ./cmd/taskreminder complete --id 1234567890123456789
 # Запустить режим напоминаний
 go run ./cmd/taskreminder run
 
-## Установка и запуск
+## Структура проекта
 
 task-reminder/
 ├── cmd/taskreminder/     ← точка входа, CLI-логика
