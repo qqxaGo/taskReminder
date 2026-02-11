@@ -1,0 +1,19 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Тесты и кэш
+*.test
+*.out
+coverage.txt
+cover.out
+
+# Зависимости
+vendor/
+
+# Временные файлы
+.DS_Store
+# tasks.json          
